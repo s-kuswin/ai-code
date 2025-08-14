@@ -1,0 +1,15 @@
+{
+    "name": "ai-frontend",                // 必须与 CI 预期名称一致
+    "main": "src/index.ts",               // 替换为你的 Worker 入口文件路径
+    "compatibility_date": "2025-08-14",   // 必填！建议设为今天
+    // 可选配置：
+    "workers_dev": true,
+    "ts_config_paths": true,
+    "build": {
+      "command": "npm run build",
+      "upload": {
+        "format": "modules",
+        "main": "src/index.ts"
+      }
+    }
+  }

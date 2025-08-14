@@ -1,3 +1,10 @@
+/*
+ * @Author: shirongwei-lhq
+ * @Date: 2025-08-13 09:59:31
+ * @LastEditors: shirongwei-lhq
+ * @LastEditTime: 2025-08-14 14:24:37
+ * @Description: 
+ */
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
